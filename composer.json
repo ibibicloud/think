@@ -1,0 +1,23 @@
+{
+	"name": "ibibicloud/think",
+    "description": "基于thinkphp5.1.42框架",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "ibibicloud",
+            "homepage": "https://www.ibibi.cloud/"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ibibicloud/think-framework": "^1.0",
+        "ibibicloud/think-captcha": "^1.0"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    }
+}
